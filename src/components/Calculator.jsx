@@ -4,11 +4,11 @@ import { Box } from "@mui/system";
 
 export default function Calculator() {
   return (
-    <div>
-      <Box m={5}/>
+    <div className='page'>
+      <Box m={2}/>
       <Container maxWidth="xs">
         <div className="wrapper">
-        <Box m={10}/>
+          <Box m={2}/>
           <h1 className='result'>01</h1>
           <button>AC</button>
           <button>+/-</button>

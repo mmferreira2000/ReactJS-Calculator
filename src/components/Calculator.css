@@ -24,6 +24,8 @@ button {
   background-color: #0b090a;
   border-radius: 1em;
   padding: 1em;
+  margin-top: 0;
+  text-align: center;
 }
 
 .result {
