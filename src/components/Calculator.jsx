@@ -65,11 +65,11 @@ export default function Calculator() {
           <button onClick={clear}>AC</button>
           <button onClick={changeSign}>+/-</button>
           <button onClick={porcentage}>%</button>
-          <button className="orange" onClick={operatorHandler} value="/">/</button>
+          <button className="orange" onClick={operatorHandler} value="÷">÷</button>
           <button className="gray" onClick={inputNum} value={7}>7</button>
           <button className="gray" onClick={inputNum} value={8}>8</button>
           <button className="gray" onClick={inputNum} value={9}>9</button>
-          <button className="orange" onClick={operatorHandler} value="X">X</button>
+          <button className="orange" onClick={operatorHandler} value="×">×</button>
           <button className="gray" onClick={inputNum} value={4}>4</button>
           <button className="gray" onClick={inputNum} value={5}>5</button>
           <button className="gray" onClick={inputNum} value={6}>6</button>
